@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 10px 0;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+    padding-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    
+    color: rgb(58, 126, 235);
+}
+
+section {
+    padding-top: 5vh;
+    height: auto;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.my-3 {
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+.button{
+    margin: auto;
+}
+@media (min-width: 992px) {
+    .col-lg-1 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
